@@ -4,6 +4,7 @@ html {
 
 body {
     height: 100%;
+    background: yellow;
     
 }
 a {
@@ -12,7 +13,13 @@ a {
 
 .main {
     height: 100%;
+    background-image:url("https://scontent-sjc3-1.cdninstagram.com/vp/78fbddeff01c97af149780a9ccfd2d0d/5C3DCCF3/t51.2885-19/s150x150/36589783_921171584721945_8407791196549677056_n.jpg");
 }
+
+.rightPane{
+    background-image:url("http://raverrafting.com/wp-content/uploads/2013/06/Armin-Van-Buuren-1.jpg");
+}
+
 .social-image{
     width: 30px;
     margin: 15px;
