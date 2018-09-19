@@ -24,3 +24,27 @@ a {
     width: 30px;
     margin: 15px;
 }
+
+.header{
+    display:flex;
+    justify-content: space-around;
+}
+
+.navbar{
+    display:flex;
+    justify-content:space-around;
+}
+
+.pageLink{
+    color:white;
+    border:solid 10px black;
+    width:100px;
+    background:green;
+    text-align:center;
+}
+
+.header{
+    font-family: 'Lato', sans-serif;
+    font-size:30px;
+    font-weight:bold;
+}

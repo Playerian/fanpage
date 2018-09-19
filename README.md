@@ -20,8 +20,8 @@ Make sure to check off your items as you complete them. [ ] => [x]
 - [x] Add images to the gallery thumbnails in gallery.html
 #### CSS
 - [x] Use CSS to change the background-color and/or font color on the page.
-- [ ] Use CSS to change the background-image of the div with the class of main
-- [ ] Use CSS to change the background-image of the div with the class of rightPane.
+- [x] Use CSS to change the background-image of the div with the class of main
+- [x] Use CSS to change the background-image of the div with the class of rightPane.
 
 #### Wrap
 - [ ] Push your changes!
