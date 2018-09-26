@@ -54,6 +54,8 @@ a {
 .social-image{
     width: 30px;
     margin: 15px;
+    border:solid 5px black;
+    border-radius:50%;
 }
 
 .header{
