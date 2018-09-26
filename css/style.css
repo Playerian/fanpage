@@ -11,13 +11,44 @@ a {
     text-decoration: none;
 }
 
+@keyframes swap{
+    from{
+        background-position:0% 0%;
+    }
+    to{
+        background-position:100% 100%;
+    }
+}
+
 .main {
     height: 100%;
     background-image:url("https://scontent-sjc3-1.cdninstagram.com/vp/78fbddeff01c97af149780a9ccfd2d0d/5C3DCCF3/t51.2885-19/s150x150/36589783_921171584721945_8407791196549677056_n.jpg");
+    animation:swap 60s linear infinite;
+}
+
+.aboutMain{
+    display:flex;
+    justify-content:space-around;
+}
+
+.leftPane{
+    width:30%;
+}
+
+.leftTop{
+    text-align:center;
+    border: solid 10px black;
+    background: #6a7495;
+    color: white;
+}
+
+.leftText{
+    border: solid 3px black;
+    background:white;
 }
 
 .rightPane{
-    background-image:url("http://raverrafting.com/wp-content/uploads/2013/06/Armin-Van-Buuren-1.jpg");
+    width:70%;
 }
 
 .social-image{
@@ -28,11 +59,32 @@ a {
 .header{
     display:flex;
     justify-content: space-around;
+    font-family: 'Lato', sans-serif;
+    font-size:30px;
+    font-weight:bold;
 }
 
 .navbar{
     display:flex;
     justify-content:space-around;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.gallery{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+
+.thumbnail-image{
+    border:solid 10px gray;
+    margin: 50px;
+    width:300px;
+    height:300px;
 }
 
 .pageLink{
@@ -43,8 +95,3 @@ a {
     text-align:center;
 }
 
-.header{
-    font-family: 'Lato', sans-serif;
-    font-size:30px;
-    font-weight:bold;
-}
