@@ -36,14 +36,14 @@ Make sure to check off your items as you complete them. [ ] => [x]
 - [x] Use flexbox to format your about page. 
 
 #### Wrap
-- [ ] Push your changes!
+- [x] Push your changes!
 
 ## Day 3
 #### CSS
-- [ ] Using the box model properties, style your thumbnails on the gallery page. 
+- [x] Using the box model properties, style your thumbnails on the gallery page. 
 
 #### Wrap
-- [ ] Push your changes!
+- [x] Push your changes!
 
 ## Extensions
 - [x] Use Google Fonts to add a new font to your site.
