@@ -11,6 +11,10 @@ a {
     text-decoration: none;
 }
 
+#wholePage{
+    animation: gradient 2s infinite;
+}
+
 @keyframes swap{
     from{
         background-position:0% 0%;
@@ -29,8 +33,6 @@ a {
 .aboutMain{
     display:flex;
     justify-content:space-between;
-    background-image: linear-gradient(to right, red, yellow);
-    animation: gradient 2s infinite;
     height: 120%;
 }
 
@@ -64,6 +66,10 @@ a {
 
 .leftPane, .midPane, .rightPane{
     margin:30px;
+}
+
+#aboutImage:hover, #award:hover, .leftPane:hover{
+    animation: rainbow 3s alternate infinite;
 }
 
 .leftPane{
