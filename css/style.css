@@ -28,11 +28,24 @@ a {
 
 .aboutMain{
     display:flex;
-    justify-content:space-around;
+    justify-content:space-between;
+}
+
+.leftPane, .midPane, .rightPane{
+    margin:30px;
 }
 
 .leftPane{
-    width:30%;
+    width: 35%;
+}
+
+#aboutImage{
+    zoom: 75%;
+    border:solid 5px black;
+}
+
+#award{
+    border:solid 5px black;
 }
 
 .leftTop{
@@ -47,8 +60,8 @@ a {
     background:white;
 }
 
-.rightPane{
-    width:70%;
+.midPane{
+    
 }
 
 .social-image{
@@ -83,10 +96,27 @@ a {
 }
 
 .thumbnail-image{
-    border:solid 10px gray;
+    border:solid 20px gray;
     margin: 50px;
     width:300px;
     height:300px;
+    transition: all 5000s;
+}
+
+.thumbnail-image:hover{
+    position: relative;
+    width: 600000px;
+    height: 600000px;
+    animation: rainbow 3s alternate infinite;
+}
+
+@keyframes rainbow{
+    from{border:solid 20px red;}
+    20%{border:solid 20px orange;}
+    40%{border:solid 20px yellow;}
+    60%{border:solid 20px green;}
+    80%{border:solid 20px blue;}
+    to{border:solid 20px purple;}
 }
 
 .pageLink{
